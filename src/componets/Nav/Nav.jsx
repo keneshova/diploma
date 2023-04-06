@@ -4,10 +4,13 @@ import "./Nav.css";
 export default function Nav() {
   return(
     <nav className="Nav">
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-      <NavLink to="/delivery">Delivery</NavLink>
+      <ul>
+       <li><NavLink to="/">Home</NavLink></li>
+       <li><NavLink to="/about">About</NavLink></li>
+       <li><NavLink to="/contact">Contact</NavLink></li>
+       <li><NavLink to="/delivery">Delivery</NavLink></li>
+     
+      </ul>
 
 
     </nav>
