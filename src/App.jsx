@@ -1,24 +1,18 @@
-import {NavLink, Routes, Route} from "react-router-dom"
+import { Routes, Route} from "react-router-dom"
+import Layout from "./componets/Layout/Layout";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
-      <p>This is my diploma</p>
-
-      <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-      </nav>
-
-      <main>
-        <Routes>
+      <Layout>
+       <Routes>
           <Route path="/" element={<h2>Home</h2>} exact></Route>
           <Route path="/about" element={<h2>About</h2>} exact></Route>
           <Route path="/contact" element={<h2>Contact</h2>} exact></Route>
-
         </Routes>
+      </Layout>
+
+      <main>
       </main>
     </div>
   );
