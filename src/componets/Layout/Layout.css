@@ -1,0 +1,12 @@
+.Layout header {
+  background-color: bisque;
+}
+.Layout aside{
+  background-color: azure;
+}
+.Layout main{
+  background-color: antiquewhite;
+}
+.Layout footer{
+  background-color: burlywood;
+}
