@@ -17,8 +17,10 @@
 .Layout main{
   flex: 80% 1 1;
   background-color: antiquewhite;
+  padding: 100px;
 }
 .Layout footer{
   flex: 100% 0 0 ;
   background-color: grey;
+  padding: 50px;
 }
