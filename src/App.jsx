@@ -4,17 +4,18 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Delivery from "./pages/Delivery";
 import Home from "./pages/Home";
+import Category from "./pages/Category";
 
 export default function App() {
   return (
     <div className="App">
       <Layout>
        <Routes>
-          <Route path="/" element={<Home />} exact />
-          <Route path="/about" element={<About />} exact />
-          <Route path="/contact" element={<Contact />} exact />
-          <Route path="/delivery" element={<Delivery />} exact/>
-          <Route path="/category/:path" element={<></>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/delivery" element={<Delivery />} />
+          <Route path="/category/:path" element={<Category/>} />
           
         </Routes>
       </Layout>
