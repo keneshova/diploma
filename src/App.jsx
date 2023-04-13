@@ -11,6 +11,7 @@ import { categoryCollection } from "./firebase";
 
 export const AppContext = createContext({
   categories: [],
+  products: []
 });
 
 export default function App() {
