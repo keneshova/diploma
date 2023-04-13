@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import { createContext, useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore";
-import { categoryCollection } from "./firebase";
+import { categoryCollection, productCollection } from "./firebase";
 
 export const AppContext = createContext({
   categories: [],
@@ -16,6 +16,7 @@ export const AppContext = createContext({
 
 export default function App() {
   const [categories, setCategories] = useState([]);
+  const [products, setProducts] = useState ([]);
   useEffect(() => {
     getDocs(categoryCollection).then((snapshot) => {
       //категории будут хпанить в snapshot.docs
@@ -33,11 +34,25 @@ export default function App() {
 
       setCategories(newCategories);
     });
+
+    getDocs(productCollection).then((snapshot) => {
+      
+      const newProducts = [];
+
+      snapshot.docs.forEach((doc) => {
+        const product = doc.data();
+        product.id = doc.id;
+
+        newProducts.push(product);
+      });
+
+      setProducts(newProducts);
+    });
   }, []);
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories }}>
+      <AppContext.Provider value={{ categories, products }}>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
