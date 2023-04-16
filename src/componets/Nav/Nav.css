@@ -2,10 +2,12 @@
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
-.Nav ul li a {
+.Nav li a ul  {
   color:dimgrey;
   padding: 10px;
   display: block;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
 }
