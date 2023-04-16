@@ -8,7 +8,7 @@
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
-  background-color:rgb(243, 243, 200);
+  background-color:rgb(253, 243, 224);
 }
 .Layout aside{
   flex: 20% 0 0 ;
@@ -21,6 +21,6 @@
 }
 .Layout footer{
   flex: 100% 0 0 ;
-  background-color:rgb(243, 243, 200);
+  background-color:rgb(253, 243, 224);
   padding: 50px;
 }
