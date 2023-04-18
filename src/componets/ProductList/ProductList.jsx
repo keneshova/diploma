@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AppContext } from "../../App";
+import AddToCart from "../AddToCart/AddToCart";
 import "./ProductList.css";
 
 export default function ProductList({ category }){
@@ -13,6 +14,7 @@ export default function ProductList({ category }){
       <img src={product.picture} alt={product.name} />
       <Link to={"/product/" + product.path}>{product.name} </Link>
       <span>{product.price} $</span>
+      <AddToCart product={product} />
     </div>
   ));
 
