@@ -8,19 +8,19 @@
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
-  background-color:rgb(253, 243, 224);
+  background-color:#d4b68f;
 }
 .Layout aside{
   flex: 20% 0 0 ;
-  background-color:snow;
+  background-color:#e4d4b3;
 }
 .Layout main{
   flex: 80% 1 1;
-  background-color:snow;
+  background-color:#e4d4b3;
   padding: 100px;
 }
 .Layout footer{
   flex: 100% 0 0 ;
-  background-color:rgb(253, 243, 224);
+  background-color:#ccae87;
   padding: 50px;
 }
