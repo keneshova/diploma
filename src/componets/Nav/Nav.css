@@ -4,7 +4,7 @@
   margin: 0;
   padding: 10px;
 }
-.Nav li a ul  {
+.Nav li a   {
   color:dimgrey;
   padding: 10px;
   display: block;
