@@ -1,0 +1,11 @@
+.CartList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.CartList .CartItem {
+  padding: 10px;
+}
+.CartList .CartItem img {
+  width: 200px;
+}
