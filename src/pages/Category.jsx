@@ -14,7 +14,7 @@ export default function Category() {
   return (
     <div className="Category">
       <h1>{category ? category.name : "Loading..."}</h1>
-      <ProductList />
+      <ProductList category={category} />
     </div>
   );
 }
