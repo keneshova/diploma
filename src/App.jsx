@@ -1,13 +1,17 @@
-import { Route, Routes } from "react-router-dom";
-import Layout from "./components/Layout/Layout";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./componets/Layout/Layout";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Delivery from "./pages/Delivery";
 import Home from "./pages/Home";
 import Category from "./pages/Category";
 import { createContext, useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore";
-import { categoryCollection, onAuthChange, productCollection } from "./firebase";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
+import { categoryCollection, onAuthChange, productCollection } from "./firebase";
+
 
 export const AppContext = createContext({
   categories: [],
@@ -77,18 +81,20 @@ export default function App() {
       setProducts(newProducts);
     });
 
-    onAuthChange(user => {
+    onAuthChange((user) => {
       setUser(user);
     });
   }, []);
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories, products, cart, setCart, user }}>
+      <AppContext.Provider value={{ categories, products, cart, setCart }}>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<h2>About</h2>} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/delivery" element={<Delivery />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
