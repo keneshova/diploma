@@ -22,8 +22,9 @@ const auth = getAuth(app);
 
 export const categoryCollection = collection(db, 'categories');
 export const productCollection = collection(db, 'products');
+export const orderCollection = collection(db, 'orders');
 
 const provider = new GoogleAuthProvider();
 export const logIn = () => signInWithPopup(auth, provider);
-export const ligOut = () => signOut (auth);
+export const logOut = () => signOut (auth);
 export const onAuthChange = (callback) => onAuthStateChanged(auth, callback);
