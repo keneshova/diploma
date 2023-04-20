@@ -9,12 +9,9 @@
   padding: 10px;
   display: block;
   text-decoration: none;
-  font-family:Arial, Helvetica, sans-serif;
+  background-color:burlywood;
+  border-radius: 0px;
+  box-shadow: 0 0 10px 0px wheat;
 }
 
-.Nav ul li a:hover{
-  background-color:burlywood;
-  border-radius: 30px;
-  box-shadow: 0 0 10px 0px wheat;
 
-} 
