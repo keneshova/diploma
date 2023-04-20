@@ -1,11 +1,21 @@
 .ProductList .Product {
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
   max-width: 300px;
+
+}
+.ProductList {
+  display: flex;
 }
 .ProductList .Product img{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   box-shadow: 0 0 10px black;
 
+}
+
+.ProductList .Product .AboutProduct{
+  text-decoration: none;
+  color:black;
 }
