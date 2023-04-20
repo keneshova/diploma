@@ -19,12 +19,12 @@ export const AppContext = createContext({
   //корзина
 
   cart: {},
-  setCart: () => {}
+  setCart: () => {},
 });
 
 export default function App() {
   const [categories, setCategories] = useState([]);
-  const [products, setProducts] = useState ([]);
+  const [products, setProducts] = useState([]);
 
   //корзина
 
@@ -32,11 +32,11 @@ export default function App() {
     //восстанавить содержимое  корзинки из памяти браузера.
     return JSON.parse(localStorage.getItem("cart")) || {};
   });
-//выполнить эту функцию только когда содержимое корзинки меняется
+  //выполнить эту функцию только когда содержимое корзинки меняется
   useEffect(() => {
     //сохранять содиржимое корзинки в памяти брузера
-    localStorage.setItem("cart",JSON.stringify(cart));
-  },[cart]);
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
 
   useEffect(() => {
     getDocs(categoryCollection).then((snapshot) => {
@@ -57,7 +57,6 @@ export default function App() {
     });
 
     getDocs(productCollection).then((snapshot) => {
-      
       const newProducts = [];
 
       snapshot.docs.forEach((doc) => {
