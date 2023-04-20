@@ -26,7 +26,16 @@ export default function App() {
 
   //корзина
 
-  const [cart, setCart] = useState({});
+  const [cart, setCart] = useState(() => {
+    //восстанавить содержимое  корзинки из памяти браузера.
+    return JSON.parse(localStorage.getItem("cart")) || {};
+  });
+//выполнить эту функцию только когда содержимое корзинки меняется
+  useEffect(() => {
+    //сохранять содиржимое корзинки в памяти брузера
+    localStorage.setItem("cart",JSON.stringify(cart));
+  },[cart]);
+
   useEffect(() => {
     getDocs(categoryCollection).then((snapshot) => {
       //категории будут хпанить в snapshot.docs
