@@ -5,6 +5,8 @@
   flex-wrap: wrap;
 }
 .Layout header {
+  display: flex;
+  justify-content: space-around;
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
