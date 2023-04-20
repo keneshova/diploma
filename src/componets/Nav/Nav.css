@@ -11,3 +11,10 @@
   text-decoration: none;
   font-family:Arial, Helvetica, sans-serif;
 }
+
+.Nav ul li a:hover{
+  background-color:burlywood;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 0px wheat;
+
+} 
