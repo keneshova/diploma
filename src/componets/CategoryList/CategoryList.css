@@ -4,7 +4,6 @@
 }
 .dropBtn {
   background-color:rgb(231, 196, 149);
-  box-shadow: 0 0 5px;
   color: white;
   padding: 5px;
   margin: 5px;
@@ -12,4 +11,11 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+.dropBtn:hover {
+  background-color:rgb(231, 196, 149);
+}
+.CategoryList {
+  position: relative;
+  display: inline-block;
 }
