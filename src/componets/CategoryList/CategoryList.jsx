@@ -14,6 +14,7 @@ export default function CategoryList() {
 
   return (
     <div className="CategoryList">
+      <button className="dropBtn">Categories</button>
       <ul>{output}</ul>
     </div>
   );
