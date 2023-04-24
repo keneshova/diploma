@@ -44,7 +44,7 @@
 .CategoryList:hover .dropdownContent {
   display: block;
   margin: 5px;
-  box-shadow: 0 0 26px black;
+  box-shadow: 0 0 20px black;
 }
 .dropdownContent li:hover {
   background-color:beige;
