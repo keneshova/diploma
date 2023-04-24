@@ -26,14 +26,14 @@
 }
 
 .Layout main .Home{
-  color:lemonchiffon;
-  box-shadow: 0 0 16px;
+  color:white;
+  box-shadow: 0 0 10px;
   padding: 10px;
 
 }
 .Layout main .About{
   color:white;
-  box-shadow: 0 0 16px ;
+  box-shadow: 0 0 10px ;
   padding: 10px;
 }
 .Layout footer{
