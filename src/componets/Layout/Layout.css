@@ -4,10 +4,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.Layout main .Home{
-  color:lemonchiffon;
 
-}
 .Layout header {
   display: flex;
   justify-content: space-around;
@@ -26,8 +23,18 @@
   padding:100px;  
   background-image: url(https://hips.hearstapps.com/hmg-prod/images/affordable-jewellery-brands-63ff813128858.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*);
   background-size:1000px;
+}
 
+.Layout main .Home{
+  color:lemonchiffon;
+  box-shadow: 0 0 16px;
+  padding: 10px;
 
+}
+.Layout main .About{
+  color:white;
+  box-shadow: 0 0 16px ;
+  padding: 10px;
 }
 .Layout footer{
   flex: 100% 0 0 ;
