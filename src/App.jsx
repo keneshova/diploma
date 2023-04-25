@@ -12,6 +12,7 @@ import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import { categoryCollection, onAuthChange, productCollection } from "./firebase";
+import Orders from "./pages/Order";
 
 
 export const AppContext = createContext({
@@ -100,6 +101,7 @@ export default function App() {
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/thank-you" element={<ThankYou/>}/>
+            <Route path="/orders" element={<Orders/>} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
