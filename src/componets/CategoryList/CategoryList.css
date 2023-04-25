@@ -33,7 +33,7 @@
 .dropdownContent li a{
   list-style-type: none;
   color: black;
-  padding: 6px 8px;
+  padding: 3px;
   text-decoration: none;
   display: block;
 }
@@ -47,7 +47,7 @@
   box-shadow: 0 0 20px black;
 }
 .dropdownContent li:hover {
-  background-color:beige;
+  background-color:rgb(240, 240, 224);
 }
 .dropdownContent li a:hover {
   transform: translateX(5px);
