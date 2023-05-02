@@ -1,7 +1,10 @@
-export default function Contact(){
-  return(
+import Vector from "../assets/Vector.png";
+
+export default function Contact() {
+  return (
     <div className="Contact">
       <h1>Contacts</h1>
+      <img src={Vector} alt="" />
     </div>
   );
 }
