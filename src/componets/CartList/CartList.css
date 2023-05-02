@@ -1,6 +1,7 @@
 .CartList {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .CartList .CartItem {
