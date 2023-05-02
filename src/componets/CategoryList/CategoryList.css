@@ -2,6 +2,9 @@
   list-style-type:circle;
   margin: 20%;
 }
+.Category h1{
+  color: white;
+}
 .dropBtn {
   background-color:rgb(231, 196, 149);
   color: white;
