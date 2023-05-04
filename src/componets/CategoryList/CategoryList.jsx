@@ -3,6 +3,7 @@ import "./CategoryList.css";
 import { useContext } from "react";
 import { AppContext } from "../../App";
 import AddCategory from "../AddCategory/AddCategory";
+import DeleteCategory from "../DeletedCategory/DeletedCategory";
 
 export default function CategoryList() {
   const { categories } = useContext(AppContext);
@@ -12,6 +13,7 @@ export default function CategoryList() {
       <NavLink to={"/category/" + category.path}>
         {category.name}
       </NavLink>
+      <DeleteCategory category={category} />
     </li>
   ))
 
