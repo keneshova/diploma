@@ -39,5 +39,8 @@
 .Layout footer{
   flex: 100% 0 0 ;
   background-color:#ccae87;
-  padding: 20px;
+  padding: 30px;
+  text-align: center;
+  font-size: 14px;
+  color:white;
 }

@@ -24,7 +24,7 @@ export default function Layout(props) {
       </main>
 
       <footer>
-        FOOTER
+        JEWERLY STORE 2023
       </footer>
     </div>
   );
