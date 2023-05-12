@@ -1,3 +1,8 @@
+.Nav{
+  font-weight: 600;
+  font-size: 17px;
+
+}
 .Nav ul{
   display: flex;
   list-style-type: none;
@@ -5,7 +10,7 @@
   padding: 10px;
 }
 .Nav li a   {
-  color:white;
+  color:beige;
   padding: 5px;
   display: block;
   text-decoration: none;
@@ -13,9 +18,7 @@
   margin: 10px;
 }
 .Nav li a:hover {
-  transform: translateX(10px);
-  transition: 200ms ease all;
-  color:sienna;
+  color:rgb(163, 103, 76);
 }
 
 
