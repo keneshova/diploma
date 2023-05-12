@@ -1,4 +1,4 @@
-.Layout{
+.Layout {
   max-width: 80%;
   margin: 0 auto;
   display: flex;
@@ -12,28 +12,43 @@
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
-  background-color:#ccae87;
-}
-.Layout aside{
   background-color: #ccae87;
 }
-
-.Layout main .Home{
-  color:white;
-  box-shadow: 0 0 10px;
-  padding: 10px; 
-
+.Layout aside {
+  background-color: #ccae87;
+  width: 170px;
 }
-.Layout main .About{
-  color:white;
-  box-shadow: 0 0 10px ;
+
+.Layout main .Home {
+  color: white;
+  box-shadow: 0 0 10px;
   padding: 10px;
 }
-.Layout footer{
-  flex: 100% 0 0 ;
-  background-color:#ccae87;
+.Layout main > div {
+  height: 100%;
+  background-size: cover;
+  background-position: top center;
+}
+.Layout h1 {
+  margin-top: 0;
+}
+.Layout main {
+  width: calc(100% - 170px);
+  min-height: 500px;
+}
+.Layout main .About {
+  color: white;
+  padding: 10px;
+}
+.main_in {
+  box-shadow: 0 0 10px;
+  padding: 40px 30px;
+}
+.Layout footer {
+  flex: 100% 0 0;
+  background-color: #ccae87;
   padding: 30px;
   text-align: center;
   font-size: 14px;
-  color:white;
+  color: white;
 }
