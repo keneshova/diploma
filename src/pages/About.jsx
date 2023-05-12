@@ -8,10 +8,6 @@ export default function About() {
           combine with each other and suitable for any image.
         </p>
         <p>
-          JEWERLY STORE - is so delicate, weightless and comfortable that you
-          will forget that you are wearing it.
-        </p>
-        <p>
           We believe in simple products that are easy to wear and combine every
           day.
         </p>
