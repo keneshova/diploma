@@ -18,18 +18,11 @@
   background-color: #ccae87;
 }
 
-.Layout main{
-  flex: 80% 1 1;
-  padding:90px;  
-  background-image: url(https://jewelry.yournextshoes.com/wp-content/uploads/2021/01/Best-Affordable-Designer-Jewelry-Brands-for-Women.jpg);
-  background-size:1000px;
-  background-repeat: no-repeat;
-}
-
 .Layout main .Home{
   color:white;
   box-shadow: 0 0 10px;
   padding: 10px; 
+
 }
 .Layout main .About{
   color:white;

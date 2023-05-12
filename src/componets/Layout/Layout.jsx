@@ -18,7 +18,7 @@ export default function Layout(props) {
       <aside>
         <CategoryList />
       </aside>
-
+      
       <main>
         {props.children}
       </main>

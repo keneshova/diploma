@@ -1,7 +1,9 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AppContext } from "../../App";
+import AddProduct from "../AddProduct/AddProduct";
 import AddToCart from "../AddToCart/AddToCart";
+import DeleteProduct from "../DeleteProduct/Deleteproduct";
 import "./ProductList.css";
 
 export default function ProductList({ category }) {
@@ -15,8 +17,15 @@ export default function ProductList({ category }) {
         <Link className="AboutProduct" to={"/product/" + product.path}>{product.name} </Link>
         <span>{product.price} $</span>
         <AddToCart product={product} />
+        <DeleteProduct product={product}/>
       </div>
     ));
 
-  return <div className="ProductList">{output}</div>;
+  return (
+    <div className="ProductList">
+    {output}
+    <AddProduct category={category} />
+  </div>
+  )
+ 
 }
