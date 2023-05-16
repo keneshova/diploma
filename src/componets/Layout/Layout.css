@@ -23,8 +23,8 @@
 .Layout main .Home {
   color: white;
   padding: 50px;
- 
-  
+  font-size: 17px;
+  font-weight: 600;
 }
 .Layout main .main-up{
   box-shadow:0 0 10px;
@@ -45,6 +45,10 @@
 .Layout main .About {
   color: white;
   padding: 50px;
+  font-size: 17px;
+  font-weight: 600;
+
+
 }
 
 .main_in {
@@ -54,8 +58,22 @@
 .Layout main .Contact{
   color:white;
   padding: 50px;
+  font-size: 17px;
+  font-weight: 600;
+
+
 }
 .contact-menu{
+  box-shadow: 0 0 20px;
+  padding: 20px 10px;
+}
+.Layout main .Delivery{
+  color:white;
+  padding: 50px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.delivery-menu{
   box-shadow: 0 0 20px;
   padding: 20px 10px;
 }
