@@ -19,4 +19,4 @@ export default function AddToCart({ product }) {
       <button onClick={onAddToCartClick}>Add to cart</button>
     </div>
   );
-}
+  }
