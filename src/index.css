@@ -45,3 +45,11 @@ img{
   background-image: url(https://jewelry.yournextshoes.com/wp-content/uploads/2021/01/Best-Affordable-Designer-Jewelry-Brands-for-Women.jpg);
   background-size: 100% 100% ;
 }
+
+.ThankYou h1 p{
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  box-shadow: 0 0 20px;
+  padding: 20px 10px;
+}
