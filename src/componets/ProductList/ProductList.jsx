@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { AppContext } from "../../App";
 import AddProduct from "../AddProduct/AddProduct";
 import AddToCart from "../AddToCart/AddToCart";
-import DeleteProduct from "../DeleteProduct/Deleteproduct";
+import DeleteProduct from "../DeleteProduct/DeleteProduct";
 import "./ProductList.css";
 
 export default function ProductList({ category }) {
