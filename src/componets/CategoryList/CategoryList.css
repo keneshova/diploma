@@ -52,8 +52,3 @@
 .dropdownContent li:hover {
   background-color:rgb(240, 240, 224);
 }
-.dropdownContent li a:hover {
-  transform: translateX(5px);
-  transition: 200ms ease all;
-  color:burlywood ;
-}
