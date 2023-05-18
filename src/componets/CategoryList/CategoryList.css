@@ -8,13 +8,12 @@
 .Category-button {
   background-color:rgb(231, 196, 149);
   color: white;
-  padding: 5px;
-  margin: 5px;
+  padding:  10px 30px;
+  margin: 10px;
   font-size: 16px;
   font-weight: 600;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
   font-family: 'Open Sans', sans-serif;
 }
 .CategoryList {
@@ -29,16 +28,14 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin: 0;
-  border-radius: 5px;
   padding: 0;
 }
 .button-category li a{
   list-style-type: none;
-  color:gray;
-  padding: 3px;
+  color:black;
+  padding: 5px;
   text-decoration: none;
   display: block;
-  font-weight: 600;
 }
 .button-category li {
   background-color:#ebdcc0;
