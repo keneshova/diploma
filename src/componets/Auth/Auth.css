@@ -1,10 +1,9 @@
 .Auth button{
-  background-color: #eccfa9;
-  color: #584831;
+  background-color:  #e7c394;
+  color: white;
   border: 0;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 0 7px;
+  margin: 10px;
+  padding: 5px 20px;
   font-size: 15px;
   font-weight: 550;
 }
