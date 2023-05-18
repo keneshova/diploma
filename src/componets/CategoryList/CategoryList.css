@@ -5,7 +5,7 @@
 .Category h1{
   color: white;
 }
-.dropBtn {
+.Category-button {
   background-color:rgb(231, 196, 149);
   color: white;
   padding: 5px;
@@ -15,14 +15,11 @@
   cursor: pointer;
   border-radius: 5px;
 }
-.dropBtn:hover {
-  background-color:rgb(231, 196, 149);
-}
 .CategoryList {
   position: relative;
   display: inline-block;
 }
-.dropdownContent {
+.button-category {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -33,22 +30,22 @@
   border-radius: 5px;
   padding: 0;
 }
-.dropdownContent li a{
+.button-category li a{
   list-style-type: none;
   color: black;
   padding: 3px;
   text-decoration: none;
   display: block;
 }
-.dropdownContent li {
+.button-category li {
   background-color:#ebdcc0;
   list-style-type: none;
 }
-.CategoryList:hover .dropdownContent {
+.CategoryList:hover .button-category {
   display: block;
   margin: 5px;
   box-shadow: 0 0 20px black;
 }
-.dropdownContent li:hover {
+.button-category li:hover {
   background-color:rgb(240, 240, 224);
 }
