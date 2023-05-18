@@ -11,9 +11,11 @@
   padding: 5px;
   margin: 5px;
   font-size: 16px;
+  font-weight: 600;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
 }
 .CategoryList {
   position: relative;
@@ -32,10 +34,11 @@
 }
 .button-category li a{
   list-style-type: none;
-  color: black;
+  color:gray;
   padding: 3px;
   text-decoration: none;
   display: block;
+  font-weight: 600;
 }
 .button-category li {
   background-color:#ebdcc0;
