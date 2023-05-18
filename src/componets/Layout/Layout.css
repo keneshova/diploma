@@ -16,7 +16,7 @@
   background-color: #ccae87;
 }
 .Layout aside {
-  background-color: #ccae87;
+  background-color: #ccae87 ;
   width: 170px;
 }
 
@@ -41,6 +41,7 @@
 .Layout main {
   width: calc(100% - 170px);
   min-height: 500px;
+  background-color: #EAE0C8;
 }
 .Layout main .About {
   color: white;
