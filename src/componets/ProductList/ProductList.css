@@ -19,9 +19,12 @@
 .ProductList .Product img{
   width: 200px;
   height: 200px;
+
 }
 
 .ProductList .Product .AboutProduct{
   text-decoration: none;
   color:black;
+  padding: 7px;
+  font-weight: 600;
 }
