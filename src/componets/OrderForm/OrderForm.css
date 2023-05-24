@@ -1,10 +1,11 @@
 .OrderForm form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid inherit;
   padding: 10px;
   margin: 10px;
-  box-shadow:  0 0 10px black;
+  box-shadow:  0 0 20px gray;
   width: 50%;
 }
