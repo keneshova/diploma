@@ -60,6 +60,10 @@
   font-size: 17px;
   font-weight: 600;
 }
+.Layout main .Contact li{
+  list-style-type: none;
+}
+
 .contact-menu{
   box-shadow: 0 0 20px;
   padding: 20px 10px;
@@ -74,11 +78,7 @@
   box-shadow: 0 0 20px;
   padding: 20px 10px;
 }
-.Layout main .Cart{
-  color:black;
-  padding: 40px;
-  
-}
+
 .Layout footer {
   flex: 100% 0 0;
   background-color: #ccae87;
