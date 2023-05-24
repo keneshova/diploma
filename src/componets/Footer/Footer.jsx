@@ -50,7 +50,7 @@ const Footer = () => {
             </p>
             <p>
               Phone: +996 707 763 896
-              <br /> Email: emilovbaku530@gmail.com
+              <br /> Email: nestana1606gmail/com
             </p>
           </div>
           <div className="col-md-3">
