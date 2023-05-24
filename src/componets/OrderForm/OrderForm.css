@@ -27,3 +27,12 @@
 .OrderForm input:focus{
   outline: none;
 }
+.Login{
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 0;
+  border-radius: 3px;
+}
