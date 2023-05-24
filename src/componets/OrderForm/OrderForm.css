@@ -15,3 +15,10 @@
   margin-bottom: 10px;
   padding: 5px 10px;
 }
+.OrderForm button{
+  padding: 5px 20px;
+  background-color:#ccae87;
+  border: 1px solid gray;
+  color: white;
+  font-weight: 600;
+}
